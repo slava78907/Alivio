@@ -1,0 +1,148 @@
+@font-face {
+  font-family: Montserat;
+  src: url("/assets/fonts/Montserrat-Bold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Montserat;
+  src: url("/assets/fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserat;
+}
+
+a {
+  text-decoration: overline;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  padding-top: 40px;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header__elems {
+  display: flex;
+  align-items: center;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+.header__btns {
+  display: flex;
+  align-items: center;
+}
+.header__search {
+  margin-right: 40px;
+}
+
+.btn {
+  color: white;
+  font-weight: 800px;
+  font-size: 14px;
+  background-color: #156963;
+  padding: 8px 33px;
+}
+.btn_w {
+  color: #156963;
+  background-color: white;
+}
+
+.main__wrap {
+  display: flex;
+  gap: 77px;
+}
+.main__title {
+  color: #156963;
+  font-size: 68px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.main__text {
+  color: #2C1500;
+  font-style: 18px;
+  font-weight: 400;
+  margin-bottom: 110px;
+}
+.main__texts {
+  max-width: 523px;
+}
+.main__btns {
+  display: flex;
+}
+.main__btn {
+  width: 320px;
+  padding: 40px 50px;
+}
+.main__btn-subtitle {
+  position: relative;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  display: flex;
+}
+.main__btn-subtitle_p::before {
+  content: "";
+  display: block;
+  background: url(/assets/img/arrow-left.svg);
+  width: 32px;
+  height: 32px;
+  margin-right: 9px;
+}
+.main__btn-subtitle_n::after {
+  content: "";
+  display: block;
+  background: url(/assets/img/arrow-left.svg);
+  width: 32px;
+  height: 32px;
+  margin-left: 9px;
+  transform: rotate(180deg);
+}
+.main__btn-text {
+  color: #ffffff;
+  font-style: 32px;
+  font-weight: 500;
+}
+.main__btn-text_g {
+  color: #156963;
+}
+
+.adventages {
+  padding: 142px 0;
+}
+.adventages__row {
+  gap: 32px;
+  display: flex;
+}
+.adventages__card {
+  padding: 16px 20px;
+  border: 1px solid #E0E0E0;
+}
+.adventages__block {
+  display: flex;
+  gap: 19px;
+}
+.adventages__title {
+  color: #156963;
+  font-size: 16px;
+  font-weight: 800;
+  max-width: 108px;
+}
